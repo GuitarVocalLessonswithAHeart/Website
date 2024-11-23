@@ -1,0 +1,266 @@
+/* General body and text styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+/* Subtitle styling for the instructor */
+.instructor-name {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Phone number styling */
+.phone-number {
+    font-size: 2.0rem; /* Large text size */
+    font-weight: bold; /* Bold */
+    color: #ffffff;
+    margin-top: 10px; /* Add space between subtitle and phone number */
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #45a049;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 2.5rem; /* Set the font size for all h2 tags (titles) */
+    color: #35424a;    /* Keep the section titles in the desired color */
+    font-weight: bold; /* Make the section titles bold */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer paragraph text */
+footer p {
+    color: #ffffff; /* Ensures the paragraph text in the footer is white */
+}
+
+/* Link styling */
+a {
+    color: #35424a;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #45a049;
+}
+
+/* Photo gallery styling */
+.photo-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.photo-gallery img {
+    width: calc(33.33% - 10px);
+    max-height: 400px;
+    border-radius: 5px;
+    margin: 5px;
+    object-fit: contain;
+}
+
+/* Contact Section styling */
+#contact {
+    text-align: center;
+}
+
+.follow-us {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.follow-us a {
+    margin: 0 10px;
+}
+
+.social-logo {
+    width: 60px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.google-logo-wrapper {
+    margin-top: 9px;
+}
+
+/* Adjustments for the "About Will" section */
+#about {
+    display: flex;
+    align-items: center; /* Align items to the center vertically */
+    justify-content: flex-start; /* Align to the left */
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.instructor-img {
+    max-width: 250px; /* Set a max width for the image */
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px; /* Space between image and text */
+}
+
+.about-text {
+    flex: 1; /* Allow the text to take up the remaining space */
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    color: #35424a;
+}
+
+.about-text p {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+/* Added padding to About section */
+#about {
+    padding: 20px;
+}
+
+header h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Guitar Gear Section Styling */
+#gear {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#gear h2 {
+    font-size: 2.5rem;
+    color: #35424a;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#gear p {
+    font-size: 1.25rem;
+    color: #333;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.gear-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gear-item {
+    flex: 1 1 30%;
+    text-align: center;
+    max-width: 250px;
+}
+
+.gear-item a {
+    display: block;
+    text-decoration: none;
+}
+
+.gear-image {
+    width: 100%;
+    height: auto;
+    max-width: 250px;  
+    border-radius: 8px;
+    margin-left: -30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gear-image:hover {
+    transform: scale(1.05);
+}
+
+.gear-name {
+    font-size: 1rem;
+    color: #35424a;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.gear-name:hover {
+    color: #45a049;
+}
+
+p {
+    font-size: 1.25rem; /* Adjust the font size for all paragraphs */
+    line-height: 1.2;   /* Increase line height for better readability */
+    color: #333;        /* Set text color to a dark shade for contrast */
+}
+
+/* Adjusting font size for the Services section bullet points */
+#services ul {
+    font-size: 1.25rem;  /* Size for the whole list */
+    padding-left: 20px;  /* Ensure bullets have space on the left */
+}
+
+#services ul li {
+    font-size: 1.25rem; /* Size for individual list items */
+    margin-bottom: 10px; /* Space between each bullet point */
+}
+
+
+
